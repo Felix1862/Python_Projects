@@ -48,6 +48,9 @@ python3 portscan.py --host 8.8.8.8
 - Sends a DNS query for google.com to UDP port 53.
 - If a response comes back, indicates a DNS server is running.
 
+## Contributing
+If you find ways to extend it (like adding port ranges, JSON output, or banner grabbing), feel free to fork and submit a pull request.
+
 # License
 This project is open-source — use it, modify it, learn from it.
 
