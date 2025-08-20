@@ -44,13 +44,13 @@ options:
 
 
 ## Examples
-# Resolve only the root domain and reverse DNS on its IPs
+### Resolve only the root domain and reverse DNS on its IPs
 python DNSExploration.py -d example.com
 
-# Brute-force subdomains from a wordlist
+### Brute-force subdomains from a wordlist
 python DNSExploration.py -d example.com -w subdomains.txt
 
-# Add numeric suffixes (api0..api9.example.com)
+### Add numeric suffixes (api0..api9.example.com)
 python DNSExploration.py -d example.com -w subdomains.txt -n
 
 ## Sample Output
