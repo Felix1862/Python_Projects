@@ -19,7 +19,6 @@ Built with **dnspython**. Works on Linux, macOS, and Windows.
 ---
 
 ## Install
-
 ```bash
 python3 -m venv .venv
 # Windows: .venv\Scripts\activate
